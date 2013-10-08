@@ -1,0 +1,21 @@
+{
+  "name": "csscount",
+  "description": "script to count the number of rules in a CSS file",
+  "keywords": ["css"],
+  "author": "David Baumgold <david@davidbaumgold.com>",
+  "version": "0.0.1",
+  "bin": {
+    "csscount": "./bin/csscount"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/singingwolfboy/csscount.git"
+    },
+  "engines": {
+    "node": ">=0.8.x"
+  },
+  "dependencies": {
+    "commander": "2.0.x",
+    "css": "1.4.x"
+  }
+}
